@@ -20,12 +20,6 @@ $xml += '</packages>'
 $file = ([system.environment]::getenvironmentvariable("userprofile") + "\packages.config")
 $xml | out-File $file
 
-
-####
-# Install chocolatey
-####
-iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
- 
  
 ######
 # Install packages with cinst
