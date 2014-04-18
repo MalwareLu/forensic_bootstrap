@@ -1,7 +1,7 @@
 #########################
 # Autoinstall script using chocolatey
 #########################
-# Note: Net 4.0 must be installed prior to running this script
+# Note: Net 4.0 and chocolatey must be installed prior to running this script
 #
 #Modify this line to change packages
 $items = @("sysinternals","Cygwin","imdisk","ext2fsd")
